@@ -6,6 +6,6 @@
 
 #_KANGAJ_AKAWAW_GLORIA
 
-#_KAPINGA_MBAYA_PATRICIA
+#_KAPINGA_MBAYA_PATRICIA "participation confirmée"
 
 #_KANYEBA_TSHIMBALANGA_DEBORAH "participation confirmée"
