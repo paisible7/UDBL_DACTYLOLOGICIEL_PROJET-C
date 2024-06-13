@@ -1,23 +1,53 @@
 #include <stdio.h>
 #include <stdlib.h>
-void afficherMenuAide()
-{
-    printf("Menu aide\n");
 
-    printf("Description de l'application:
-     une application de dactylogiciel c'est un logiciel d'aide a l'amelioration de la saisie rapide au clavier\n"
-     );
-     printf("version du jeu: 2.0\n");
 
-     printf("concrepteurs:Deborah , Patricia , Gloria , Augustin\n");
-     printf("Date de conception : 10 mai 2024\n");
-     printf("Autres information: cette application a été developpée en c avec l'intrface graphique.\n");
-}
+
 int main()
 {
-    // Appel de la fonction pour afficher le menu d'aide
+    int choix:
 
-    afficherMenuAide();
-    
+    do
+    {
+        printf("\nACCUEIL\n\n");
+        printf("\n1. Demarrer\n");
+        printf("\n2. Configurer\n");
+        printf("\n3. aide\n");
+        printf("\nSelectionner une option : ");
+        scanf("%d", &choix);
+
+        switch(choix)
+        {
+
+        case 1:
+            system("clear");
+            printf("\nDEMARRER\n");
+
+        case 2:
+            system("clear");
+            printf("\nCONFIGURATION\n");
+            
+            
+
+            break;
+
+        case 3:
+            system("clear");
+            printf("\nAIDE\n");
+            printf("\nDactylogiciel ameliore la vitesse de saisie au clavier\n");
+            printf("Version : 1.0\n");
+            printf("Conçu par Augustin K. Dévéloppeur web Full satck, Gloria K. Patricia K. et Deborah K.\n");
+            printf("Production : %s\n", __DATE__);
+            break;
+
+        default :
+            system("clear");
+            printf("Goog bye");
+            break;
+        }
+    }
+    while(choix != 0);
+
+
     return 0;
 }
