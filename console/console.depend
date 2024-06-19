@@ -1,5 +1,7 @@
 # depslib dependency file v1.0
-1717618793 source:/home/paisible/Work/UDBL_DACTYLOLOGICIEL_PROJET-C/console/main.c
+1718834446 source:/home/paisible/Work/UDBL_DACTYLOLOGICIEL_PROJET-C/console/main.c
 	<stdio.h>
 	<stdlib.h>
+	<time.h>
+	<string.h>
 

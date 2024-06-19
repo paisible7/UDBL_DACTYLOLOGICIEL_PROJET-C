@@ -1,4 +1,4 @@
-                                VERSION 1.0
+                                VERSION 1.5
 
                 DACTYLOGICIEL EST JEU DE TEST A LA RAPIDITÉ DE SAISIE,
                 CE JEU AMELIORE LA PERCEPTION ET SAISIE AU CLAVIER
@@ -12,4 +12,4 @@
                                 PATRICIA K.
                                 DEBORAH K.
 
-                            SORTIE 14/06/2024
+                            SORTIE 19/06/2024
